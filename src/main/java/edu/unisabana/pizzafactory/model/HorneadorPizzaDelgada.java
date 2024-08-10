@@ -8,8 +8,9 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class HorneadorPizzaDelgada {
+public class HorneadorPizzaDelgada implements Horneador{
 
+    @Override
     public void hornear() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())
             .log(Level.INFO, "[~~] Horneando la pizza delgada con masa convencional.");

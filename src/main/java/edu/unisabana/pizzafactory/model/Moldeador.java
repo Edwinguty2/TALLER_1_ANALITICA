@@ -9,5 +9,5 @@ package edu.unisabana.pizzafactory.model;
  * @author Usuario
  */
 public interface Moldeador {
-    void moldearPizza(Tamano tamano) throws ExcepcionParametrosInvalidos;
+    public void moldearPizza(Tamano tamano) throws ExcepcionParametrosInvalidos;
 }
